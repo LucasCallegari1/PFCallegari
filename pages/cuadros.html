@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
 </head>
 <body>
@@ -19,7 +20,7 @@
             <a target="_blank" class="nav-link"  href="https://www.google.com/"><i class="fa-solid fa-magnifying-glass"></i></a>
             </li>
             <li class="nav-item">
-            <a target="_blank" class="nav-link" href="../index.html"><i class="fa-solid fa-house"></i></a>
+            <a class="nav-link" href="../index.html"><img class="logo" src="../assets/img/Logo.png" alt="logo"></a>
             </li>
             <li class="nav-item">
             <a target="_blank" class="nav-link" href="https://ploomdeco.mitiendanube.com/productos/"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -46,10 +47,10 @@
     </header>
     <main>
         <h1>Cuadros</h1>
-    <div class="container"> 
+    <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-lg-6"><img src="../assets/img/Valley.jpg" alt="TheValley" class="img-fluid"></div>
-            <div class="col-xs-12 col-lg-6"><h2 class="text-center">Valley</h2>
+            <div class="col-xs-12 col-lg-6" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000"><img src="../assets/img/Valley.jpg" alt="TheValley" class="img-fluid"></div>
+            <div class="col-xs-12 col-lg-6" data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000"><h2 class="text-center">Valley</h2>
             <p>Inspirado en nuestro Norte Argentino, especificamente en la hermosa provincia de Jujuy. Al Visitar Purmamarca nos encontramos con un pueblito andino de callecitas angostas y tranquilas, que conserva sus casas de adobe integradas en armonía con el entorno natural. Una postal única, enmarcada por el cerro de los Siete Colores de fondo. Una experiencia única que nos permite agregarles un poco de color a nuestros cuadros “total White”. 
             </p>
             </div>
@@ -57,17 +58,16 @@
     </div>   
     <div class="container">    
         <div class="row">
-            <div class="col-xs-12 col-lg-6"><img src="../assets/img/Canyons.jpg" alt="TheCanyons" class="img-fluid"></div>
-            <div class="col-xs-12 col-lg-6"><h2 class="text-center">The Canyons</h2><p>Inspirado en una maravilla mexicana llamada el Cañon del Sumidero ubicada en el estado de Chiapas, a pocos kilometros de su capital, Tuxtla Gutierrez.Consiste en un imponente acantilado que se eleva sobre el cauce del rio Grijalva. Con muros que alcanzan los mas de 1000 metros de altura, es uno de los paisajes mas impresionantes de Mexico.
+            <div class="col-xs-12 col-lg-6" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000"><h2 class="text-center">The Canyons</h2><p>Inspirado en una maravilla mexicana llamada el Cañon del Sumidero ubicada en el estado de Chiapas, a pocos kilometros de su capital, Tuxtla Gutierrez.Consiste en un imponente acantilado que se eleva sobre el cauce del rio Grijalva. Con muros que alcanzan los mas de 1000 metros de altura, es uno de los paisajes mas impresionantes de Mexico.
             Un lugar que genera sensaciones indescriptibles en el cuerpo, un lugar que inspira y te deja sin aliento. 
-            </p>
-            </div>
+            </p></div>
+            <div class="col-xs-12 col-lg-6" data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000"><img src="../assets/img/Canyons.jpg" alt="TheCanyons" class="img-fluid"></div>
         </div>
     </div>  
     <div class="container">    
         <div class="row">   
-            <div class="col-xs-12 col-lg-6"><img src="../assets/img/Waves.jpg" alt="Waves" class="img-fluid"></div>
-            <div class="col-xs-12 col-lg-6"><h2 class="text-center">Waves</h2><p>Inspirado en Punta cometa un increíble lugar que se encuentra en el punto más saliente del Pacífico. Ubicado en el extremo occidental de Mazunte y con su forma de media luna es el lugar perfecto para visualizar los amaneceres o atardeceres.
+            <div class="col-xs-12 col-lg-6" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000"><img src="../assets/img/Waves.jpg" alt="Waves" class="img-fluid"></div>
+            <div class="col-xs-12 col-lg-6" data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000"><h2 class="text-center">Waves</h2><p>Inspirado en Punta cometa un increíble lugar que se encuentra en el punto más saliente del Pacífico. Ubicado en el extremo occidental de Mazunte y con su forma de media luna es el lugar perfecto para visualizar los amaneceres o atardeceres.
             Aquí el cielo y el mar se unen formando un paisaje único. Te maravillas con sus hermosos acantilados desde los cuales conseguis vistas panorámicas alucinantes.
             </p>
             </div>
@@ -86,6 +86,10 @@
         Obras inspiradas en nuestra maravillosa tierra que nunca deja de sorprendernos.   
         </p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>

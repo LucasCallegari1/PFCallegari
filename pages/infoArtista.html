@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
 </head>
 <body>
@@ -19,7 +20,7 @@
             <a target="_blank" class="nav-link" href="https://www.google.com/"><i class="fa-solid fa-magnifying-glass"></i></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="../index.html"><i class="fa-solid fa-house"></i></a>
+            <a class="nav-link" href="../index.html"><img class="logo" src="../assets/img/Logo.png" alt="logo"></a>
             </li>
             <li class="nav-item">
             <a target="_blank" class="nav-link" href="https://ploomdeco.mitiendanube.com/productos/"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -48,29 +49,32 @@
         <h1>Pipe Medrano</h1>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-5 col-lg-6"><img src="../assets/img/FotoArtista.jpg" alt="Pipe" class="img-fluid"></div>
-                <div class="col-sm-12 col-md-7 col-lg-6"><p class="infoArt">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, accusantium. Id alias molestias accusantium itaque sed dolorem, incidunt neque? <br>
-                Cum voluptatum, exercitationem hic quia odit recusandae molestias accusantium fugit dolore! Quam veniam laboriosam culpa eligendi aperiam, reiciendis adipisci? Tempora mollitia voluptatum ducimus reprehenderit? <br> 
-                Quibusdam voluptas cupiditate nulla dolor porro ducimus eligendi deserunt distinctio neque molestias doloremque, officia harum corrupti magnam, fuga ullam ipsam provident tempore maiores est. Quas aspernatur neque ullam quam expedita beatae excepturi, animi eaque ex sapiente molestias praesentium officiis tenetur. Quas nemo, minus ullam, consequatur possimus fuga dolores labore recusandae, maiores inventore aliquam dolorem mollitia explicabo debitis.</p>
+                <div class="col-sm-12 col-md-5 col-lg-6"><img data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000"src="../assets/img/FotoArtista.jpg" alt="Pipe" class="img-fluid"></div>
+                <div class="col-sm-12 col-md-7 col-lg-6">
+                    <p>
+                    <div class="primerTitulo" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">“Disfrutando de los pequeños momentos”</div> 
+                    <div class="parrafoInfo" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">Te damos la bienvenida al sitio de Pipe Medrano, una persona multifacética que encuentra en el arte y las texturas otra forma de sentir el mundo.
+                    <br>
+                    Apasionado por viajar y los deportes, desde muy chico siempre estuvo acompañado de una pelota de fútbol, una raqueta de tenis, una paleta de padel, una tabla de SnowBoard y hasta un aro de Basquet donde solía jugar al 21 con su hermano.
+                    <br>
+                    Hace algunos años la pandemia lo obligo a hacer un parate de los viajes, de paso por Buenos Aires su estadía se extendió. En medio de la búsqueda por no perder la cabeza ante el encierro obligado por el COVID, logró insertarse en el mundo de la lectura y la pintura.     
+                    <br>
+                    Durante esos meses leyó todos los libros que su madre tenia en su biblioteca, aprendió a meditar y gracias a la idea de hacer un regalo significativo a su pareja realizó su primer cuadro.  
+                    <br>
+                    Y así es como comienza esta nueva etapa en su vida, donde inspirado por la naturaleza intenta plasmar en cuadros un poco de las sensaciones que las maravillas del mundo le provocan.</div>
+                    </p>
                 </div>
             </div>
         </div>
         <br>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-4"><img src="../assets/img/FotoArtista2.jpg" alt="Volcan" class="img-fluid"></div>
-                <div class="col-sm-12 col-md-4"><img src="../assets/img/FotoArtista3.jpg" alt="Sumidero" class="img-fluid"></div>
-                <div class="col-sm-12 col-md-4"><img src="../assets/img/FotoArtista4.jpg" alt="Bacalar" class="img-fluid"></div>
+                <div class="col-sm-12 col-md-4"><img data-aos="fade-up-right" data-aos-delay="100" data-aos-duration="2000" src="../assets/img/FotoArtista2.jpg" alt="Volcan" class="img-fluid"></div>
+                <div class="col-sm-12 col-md-4"><img data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="100" data-aos-duration="2000" src="../assets/img/FotoArtista3.jpg" alt="Sumidero" class="img-fluid"></div>
+                <div class="col-sm-12 col-md-4"><img data-aos="fade-up-left" data-aos-delay="100" data-aos-duration="2000" src="../assets/img/FotoArtista4.jpg" alt="Bacalar" class="img-fluid"></div>
             </div>
         </div>
-
-
-
-
-
     </main>
-
-
     <hr>
 <footer class="container-fluid">
     <div class="redes">
@@ -83,7 +87,10 @@
     Obras inspiradas en nuestra maravillosa tierra que nunca deja de sorprendernos.   
     </p>
 </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>   
